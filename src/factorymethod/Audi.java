@@ -1,4 +1,4 @@
-package simplefactory;
+package factorymethod;
 
 public class Audi implements ICar {
 

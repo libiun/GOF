@@ -1,5 +1,5 @@
 package simplefactory;
 
-public interface Car {
+public interface ICar {
     public void drive();
 }

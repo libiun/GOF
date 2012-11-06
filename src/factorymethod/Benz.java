@@ -1,4 +1,4 @@
-package simplefactory;
+package factorymethod;
 
 public class Benz implements ICar {
 
