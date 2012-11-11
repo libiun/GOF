@@ -3,25 +3,25 @@ package composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Composite implements Component {
+public class Composite implements IComponent {
 
-    private List<Component> list = new ArrayList<Component>();
+    private List<IComponent> list = new ArrayList<IComponent>();
 
-    public void add(Component component) {
+    public void add(IComponent component) {
         list.add(component);
     }
 
-    public void remove(Component component) {
+    public void remove(IComponent component) {
         list.remove(component);
     }
 
-    public List<Component> getAll() {
+    public List<IComponent> getAll() {
         return this.list;
     }
 
     @Override
     public void dosth() {
-        for (Component component : list) {
+        for (IComponent component : list) {
             component.dosth();
         }
     }

@@ -11,9 +11,9 @@ package command;
  */
 public class Invoker {
 
-    private Command command;
+    private ICommand command;
 
-    public Invoker(Command command) {
+    public Invoker(ICommand command) {
         this.command = command;
     }
 

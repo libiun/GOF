@@ -1,6 +1,6 @@
 package adapterwithcomposite;
 
-public class Adapter implements Target {
+public class Adapter implements ITarget {
 
     private Adaptee adaptee;
 

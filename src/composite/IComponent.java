@@ -1,6 +1,6 @@
 package composite;
 
-public interface Component {
+public interface IComponent {
 
     public void dosth();
 }

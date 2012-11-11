@@ -1,6 +1,6 @@
 package command;
 
-public class ConcerteCommand implements Command {
+public class ConcerteCommand implements ICommand {
 
     private Receiver receiver;
 

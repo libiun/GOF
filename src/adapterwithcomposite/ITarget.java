@@ -1,6 +1,6 @@
 package adapterwithcomposite;
 
-public interface Target {
+public interface ITarget {
 
     public void method1();
 }

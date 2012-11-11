@@ -1,6 +1,6 @@
 package composite;
 
-public class Leaf implements Component {
+public class Leaf implements IComponent {
     
     @Override
     public void dosth() {

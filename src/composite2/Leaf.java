@@ -2,7 +2,7 @@ package composite2;
 
 import java.util.List;
 
-public class Leaf implements Component {
+public class Leaf implements IComponent {
 
     @Override
     public void dosth() {
@@ -10,15 +10,15 @@ public class Leaf implements Component {
     }
 
     @Override
-    public void add(Component component) {
+    public void add(IComponent component) {
     }
 
     @Override
-    public void remove(Component component) {
+    public void remove(IComponent component) {
     }
 
     @Override
-    public List<Component> getAll() {
+    public List<IComponent> getAll() {
         return null;
     }
 }
