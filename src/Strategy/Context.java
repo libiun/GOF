@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 //算法使用环境
 import java.util.List;
